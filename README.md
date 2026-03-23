@@ -13,30 +13,7 @@ This scraper allows you to extract key product data (like titles, prices, rating
 - 🖥️ Streamlit UI for interactive use
 - 🤖 AI-powered "Best Deal" recommendation using Google Gemini
 
----
 
-## 📁 Project Structure
-
-Scraper/
-
-├── Agents/
-│   └── Agent_feedback.py     # AI Agent logic for recommendations
-├── Controllers/
-│   └── scraper_controller.py # Handles Indiamart scraping logic
-├── Helpers/
-│   └── config.py             # Configuration (API Keys etc)
-│   └── scraper_utils.py      # Utility functions
-├── LLM/
-│   └── gemini_client.py      # Google Gemini wrapper
-├── Products/
-│   └── product.py            # Dataclasses for structured product data
-├── Styles/                   # CSS for Streamlit
-├── app.py                    # Streamlit interface
-├── main.py                   # Entrypoint for CLI use (optional)
-├── requirements.txt          # Python dependencies
-└── README.md                 # Project overview
-
----
 
 ## 🧪 Quickstart
 
